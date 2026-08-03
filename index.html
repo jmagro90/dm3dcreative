@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d14">
+  <meta name="description" content="DM3D Creative — miniaturas personalizadas, impressão 3D em resina e pintura artesanal.">
+  <title>DM3D Creative | Miniaturas que ganham vida</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="DM3D Creative">
+      <img src="assets/logo.svg" alt="DM3D Creative">
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#galeria">Galeria</a>
+      <a href="#pix">Pix</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">IMPRESSÃO 3D + PINTURA ARTESANAL</span>
+        <h1>Miniaturas que <em>ganham vida.</em></h1>
+        <p>Peças em resina, personagens colecionáveis e miniaturas personalizadas feitas com atenção a cada detalhe.</p>
+        <div class="actions">
+          <a class="btn primary" href="#galeria">Conheça nosso trabalho</a>
+          <a class="btn ghost" href="https://wa.me/5511986566109?text=Olá%20DM3D!%20Gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Pedir orçamento</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <img src="images/casal-personalizado.jpg" alt="Miniatura personalizada de casal com cachorro">
+        <span class="photo-tag">Peças personalizadas</span>
+      </div>
+    </section>
+
+    <section class="features" aria-label="Diferenciais">
+      <article><b>Impressão em resina</b><span>Ótimo nível de detalhes</span></article>
+      <article><b>Pintura artesanal</b><span>Finalização peça por peça</span></article>
+      <article><b>Feito sob encomenda</b><span>Presentes e momentos únicos</span></article>
+      <article><b>Atendimento rápido</b><span>Direto pelo WhatsApp</span></article>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">NOSSO TRABALHO</span>
+        <h2>Detalhes que transformam ideias em peças especiais</h2>
+        <p>Uma seleção de miniaturas produzidas e pintadas pela DM3D Creative.</p>
+      </div>
+      <div class="gallery">
+        <figure class="card reveal"><img src="images/harry.jpg" alt="Miniatura estilo chibi de jovem bruxo"><figcaption><b>Colecionáveis</b><span>Personagens em estilo chibi</span></figcaption></figure>
+        <figure class="card reveal"><img src="images/coragem.jpg" alt="Miniatura de cachorro rosa estilizado"><figcaption><b>Personagens</b><span>Pintura expressiva e divertida</span></figcaption></figure>
+        <figure class="card reveal"><img src="images/deadpool.jpg" alt="Miniatura estilizada de herói vermelho"><figcaption><b>Universo geek</b><span>Peças para colecionar</span></figcaption></figure>
+        <figure class="card reveal"><img src="images/casal-vinho.jpg" alt="Miniatura personalizada de casal com taças"><figcaption><b>Personalizados</b><span>Presentes que contam histórias</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section id="pix" class="pix-section">
+      <div class="pix-card reveal">
+        <div>
+          <span class="eyebrow">PAGAMENTO RÁPIDO</span>
+          <h2>Pague com Pix</h2>
+          <p>Leia o QR Code pelo aplicativo do seu banco ou copie a chave Pix abaixo.</p>
+          <div class="pix-owner">
+            <strong>JEAN CARLOS DAL MAGRO</strong>
+            <span>Chave: 11986566109</span>
+          </div>
+          <button class="btn primary" id="copyPix" type="button">Copiar chave Pix</button>
+          <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+        </div>
+        <img class="qr" src="assets/qr-pix-itau.jpg" alt="QR Code Pix Itaú de Jean Carlos Dal Magro">
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="section-heading reveal">
+        <span class="eyebrow">FALE COM A DM3D</span>
+        <h2>Escolha seu canal preferido</h2>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card whatsapp reveal" href="https://wa.me/5511986566109?text=Olá%20DM3D!%20Vim%20pelo%20site." target="_blank" rel="noopener"><b>WhatsApp</b><span>(11) 98656-6109</span></a>
+        <a class="contact-card instagram reveal" href="https://instagram.com/dm3dcreative" target="_blank" rel="noopener"><b>Instagram</b><span>@dm3dcreative</span></a>
+        <a class="contact-card shopee reveal" href="https://shopee.com.br/dm3d_creative" target="_blank" rel="noopener"><b>Shopee</b><span>Visitar nossa loja</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.svg" alt="DM3D Creative">
+    <p>Miniaturas que ganham vida.</p>
+    <small>© <span id="year"></span> DM3D Creative.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

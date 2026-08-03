@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" role="img" aria-labelledby="title desc">
+<title id="title">DM3D Creative</title>
+<desc id="desc">Logotipo DM3D Creative em branco e laranja</desc>
+<rect width="720" height="210" rx="22" fill="#080d14"/>
+<g transform="translate(38 30)">
+  <text x="0" y="92" font-family="Arial Black, Montserrat, sans-serif" font-size="92" font-style="italic" font-weight="900" fill="#f7f9fc">DM</text>
+  <text x="185" y="92" font-family="Arial Black, Montserrat, sans-serif" font-size="92" font-style="italic" font-weight="900" fill="#ff5a0a">3D</text>
+  <rect x="0" y="115" width="42" height="6" rx="3" fill="#ff5a0a"/>
+  <rect x="475" y="115" width="42" height="6" rx="3" fill="#ff5a0a"/>
+  <text x="58" y="132" font-family="Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="13" fill="#ff7a2b">CREATIVE</text>
+</g>
+</svg>
